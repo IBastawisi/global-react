@@ -4,6 +4,21 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ClientApps\dt\react-router-dom\index.d.ts" />
+    <None Remove="ClientApps\Home\components\FetchData.tsx" />
+    <None Remove="ClientApps\Home\components\Home.tsx" />
+    <None Remove="ClientApps\Home\components\Layout.tsx" />
+    <None Remove="ClientApps\Home\components\NavMenu.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.7.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 
 
 </Project>

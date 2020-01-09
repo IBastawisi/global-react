@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "typeRoots": [ "../dt", "../node_modules/@types" ],
+    "types": [
+      "react",
+      "react-dom",
+      "react-router-dom",
+      "office-ui-fabric-react"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "jsx": "react",
+    "target": "es5",
+    "sourceMap": true,
+    "outFile": "../../wwwroot/js/home.js"
+  }
+}
