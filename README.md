@@ -12,6 +12,6 @@ Make sure to link the compiled js file in the corresponding html view.
 
 Each module contains a set of components exposed to the global namespace, accessible via module.component & can be rendered with ReactDOM:
 
-`ReactDOM.render( React.createElement(module.component, {"{"} ...props {"}"}), document.getElementById(node - id) )`
+`ReactDOM.render( React.createElement(module.component, { ...props }), document.getElementById(node-id) )`
 
 Finally: React is meant to be used with bundlers to resolve module imports (each file is a module), I think using globals is only usefull when you have multiple small SPAs not a single app!        
