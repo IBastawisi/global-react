@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "react@16.12.0",
+      "destination": "wwwroot/lib/react/",
+      "files": [
+        "umd/react.development.js",
+        "umd/react.production.min.js",
+        "umd/react.profiling.min.js"
+      ]
+    },
+    {
+      "library": "react-dom@16.11.0",
+      "destination": "wwwroot/lib/react-dom/",
+      "files": [
+        "umd/react-dom.development.js",
+        "umd/react-dom.production.min.js",
+        "umd/react-dom.profiling.min.js"
+      ]
+    },
+    {
+      "library": "react-router-dom@5.1.2",
+      "destination": "wwwroot/lib/react-router-dom/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "office-ui-fabric-react@7.78.1",
+      "destination": "wwwroot/lib/office-ui-fabric-react/",
+      "files": [
+        "dist/office-ui-fabric-react.js",
+        "dist/office-ui-fabric-react.min.js",
+        "dist/office-ui-fabric-react.umd.js",
+        "dist/css/fabric.css",
+        "dist/css/fabric.min.css"
+      ]
+    }
+  ]
+}
